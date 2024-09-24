@@ -1,0 +1,8 @@
+致敬b站大学和csdn大学，学概念的效率嘎嘎高（
+
+代码们全在Restaurant\src\com\Jkong里。胡乱搓了一个Main.java作为交互入口，代码质量不高，望多指教qwq
+
+1. 了解了抽象类。既然Dish是所有dish的父类，那点菜的时候肯定不会点父类Dish，肯定是点某个具体的dish，所以干脆利用抽象类无法被实例化的特性，把Dish设为抽象类，顺便对子类的方法做一些规范。
+2. 想要让profile不同简单，子类分别重写viewProfile方法就可以。
+3. 了解了接口。由于实现接口的类对接口内方法的实现方式不同，因此把Order接口也声明为abstract比较好。我在其中定义了cook、getName、viewProfile这三个抽象方法让Dish类来实现（viewProfile写在Order里的原因是，我想在manageOrder里调用菜品profile，但manageOrder拿到的是Order类型的ArrayList，所以viewProfile必须在Order里写出来）。另外，对于check方法，由于它是简单的随机，所以没有必要在dish之间做区分，因此我把它定义为default方法，这样，所有dish都可以不用重写check，可以直接用。顺带提一嘴，如果定义厨师类System，那么跟java的System会有冲突，出点小问题qwq，所以我写的是ManageSystem。
+4. 关于customer信息的传入，我本来想说用一个Customer父类让两种customer类继承，然后用多态。不过既然下面提到泛型，我就去了解一下泛型，决定在manageOrder方法用泛型传入customer类了。实现是实现了，但是也不知道有没有必要这样整（泛型传入后还判断是哪个类的实例，然后再赋值，这样才能调用方法）。理论上说继承然后多态是更好的选择？

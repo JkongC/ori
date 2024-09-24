@@ -25,7 +25,7 @@ public class Person {
 
     //静态的count方法
     public static int count(){
-        return num;
+        return Person.num;
     }
 
     //finalize方法
