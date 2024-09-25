@@ -25,8 +25,9 @@ public class ManageSystem {
 
         for (int i = 0; i < dishes.size(); i++) {
             dishes.get(i).cook();
-            System.out.println("订单编号为"+this.OrderNum);
         }
+
+        System.out.println("订单编号为"+this.OrderNum);
 
         if (customer instanceof WechatCustomer){
             Wc = (WechatCustomer) customer;
