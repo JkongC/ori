@@ -13,7 +13,7 @@ public class ManageSystem {
         TableCustomer Tc;
 
         System.out.println("\n-----厨师界面-----");
-        System.out.println("");
+        System.out.println();
 
         for (int i = 0; i < dishes.size(); i++) {
             if (!dishes.get(i).check()) {
