@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9b074b1-6d22-4dc6-ae1e-ea6b1fd901b4" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Jkong/net/Net.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Jkong/net/ServerC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Jkong/netrepeat/NetR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Jkong/netrepeat/ServerCR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +21,20 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "JkongC"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/JkongC/ori.git",
+    "accountId": "8c639b2f-d17b-4fad-bac8-054e6fab0cce"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -46,6 +50,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Minec/Desktop/Programing/Glimmer/2024090914007-黄博加-JAVA-10/net",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,7 +68,7 @@
       <recent name="com.Jkong.netrepeat" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.NetR">
+  <component name="RunManager">
     <configuration name="Net" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Jkong.net.Net" />
       <module name="net" />
@@ -77,7 +82,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NetR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="NetR" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.Jkong.netrepeat.NetR" />
       <module name="net" />
       <extension name="coverage">
@@ -103,7 +110,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerCR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ServerCR" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.Jkong.netrepeat.ServerCR" />
       <module name="net" />
       <extension name="coverage">
@@ -143,6 +152,9 @@
       <updated>1727967764163</updated>
       <workItem from="1727967765182" duration="5424000" />
       <workItem from="1727973766418" duration="35000" />
+      <workItem from="1728017535960" duration="13000" />
+      <workItem from="1728063214189" duration="22000" />
+      <workItem from="1729005425975" duration="240000" />
     </task>
     <servers />
   </component>
